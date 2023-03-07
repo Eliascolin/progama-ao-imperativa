@@ -82,20 +82,19 @@ console.log(e)
 
 function mediaDeTresNumeros(alum1,alum2,alum3){
 
-    let primeiro = divisao (alum1,2); 
-    
-    let segundo = divisao (alum2,2);
+    let suma = soma (alum1,alum2)
 
-    let terceiro = divisao (alum3,2);
+    let suma2 = soma (suma,alum3)
 
-    return `${primeiro}, ${segundo}, ${terceiro}` 
+    let resultado = divisao(suma2,3)
+    return resultado
 
 }
 
 
 let media = mediaDeTresNumeros(6,12,20)
 
-console.log(media)
+console.log("o resultado e de",media)
 
 
 
