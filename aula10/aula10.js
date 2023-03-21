@@ -51,9 +51,37 @@
 //   while(numero <= 20){
 // numero+=3
 // console.log(numero)
-//   }
+//}
 
 
-// Escreva um programa que mostre a soma de todos os números entre 0 e 100.
+
+/*
+3) Escreva um programa que mostre a soma de todos os números entre 0 e 100
+let numeros = 0
+do{
+numeros++
+console.log(numeros)
+}while(numeros<=100)*/
 
 
+//O fatorial de um número é obtido pela multiplicação de todos os inteiros
+
+function facturial (nume){
+ let calulo = 1
+
+ if (nume % 1 == 0){
+  while (nume > 0){
+  
+    calulo = calulo * nume
+     
+    nume--
+    
+    console.log(nume)
+
+  }
+ }
+else(console.log(`o numero ${nume} é impar`))
+
+}
+
+facturial(9)
